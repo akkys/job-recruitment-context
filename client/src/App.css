@@ -1,0 +1,311 @@
+body {
+  margin-top: 5%;
+}
+
+.form-container {
+  margin-top: 10%;
+  padding: 20px;
+  box-shadow: 5px 5px 15px 5px rgb(179, 179, 179);
+}
+
+.form-container h2 {
+  font-weight: 500;
+}
+
+.form-container input {
+  font-size: 14px;
+}
+
+.form-container label {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.home-container {
+  margin-top: 10%;
+}
+
+.home-container h2 {
+  font-weight: bold;
+  color: rgb(80, 79, 79);
+}
+
+.home-container label {
+  color: rgb(82, 82, 82);
+}
+
+#nav-bar {
+  padding: 1% 7%;
+  margin-bottom: 3%;
+}
+
+#navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 5%;
+}
+
+#left-div-container {
+  padding: 5%;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  background-color: aquamarine;
+}
+
+#left-div-container p {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#left-div-container h1 {
+  font-weight: 500;
+}
+
+#right-div-container {
+  padding: 5%;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  background-color: chartreuse;
+}
+
+#right-div-container p {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#right-div-container h1 {
+  font-weight: 500;
+}
+
+#main-container button {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.company-container {
+  margin: 10% 0;
+}
+
+.comp-container {
+  border: none;
+  background-color: rgb(214, 213, 213);
+  padding: 20px;
+}
+
+.comp-container h5 {
+  margin-left: 3%;
+}
+
+.job-container {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 3px 3px 7px 2px rgb(175, 174, 174);
+}
+
+.job-container small {
+  font-size: 14px;
+  color: rgb(104, 102, 102);
+}
+
+.job-container h5 {
+  font-weight: bold;
+}
+
+.job-container h4 {
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 5px;
+  color: rgb(49, 48, 48);
+}
+
+.job-container h4 i {
+  font-size: 20px;
+}
+
+.job-container h6 {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(71, 68, 68);
+}
+
+.tags {
+  border: 1px solid rgb(172, 230, 240);
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: rgb(172, 230, 240);
+  color: black;
+  margin-right: 5px;
+}
+
+.add-tags {
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(194, 193, 193);
+  color: rgb(0, 0, 0);
+  margin-right: 5px;
+}
+
+.add-tags span {
+  color: rgb(167, 12, 12);
+  font-size: 16px;
+}
+
+#login-container {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 25px;
+  box-shadow: 5px 5px 10px 5px rgb(206, 206, 206);
+}
+
+#login-container input:hover {
+  border-color: rgba(35, 146, 238, 0.884);
+}
+
+#login-container input:focus {
+  border-color: rgba(35, 146, 238, 0.884);
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.table-container {
+  margin-top: 5%;
+  /* border: 1px solid black; */
+}
+
+.table-container p {
+  font-weight: lighter;
+  color: rgb(78, 75, 75);
+}
+
+.Emp-container {
+  margin-top: 10%;
+}
+
+.Emp-container h1 {
+  text-align: center;
+  font-weight: bold;
+  padding: 1% 5%;
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+.Emp-container h3 {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(80, 79, 79);
+  /* font-size: 20px; */
+}
+
+.Emp-container p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(100, 98, 98);
+}
+
+.Emp-container .left {
+  /* border: 1px solid; */
+  padding: 5%;
+}
+
+.Emp-subContainer h1 {
+  text-align: left;
+  font-weight: bold;
+  padding: 0%;
+  font-size: 50px;
+}
+
+.Emp-subContainer h3 {
+  font-weight: bold;
+  text-align: left;
+  color: rgb(80, 79, 79);
+}
+
+.Emp-subContainer p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(87, 86, 86);
+}
+
+.Emp-subContainer img {
+  margin-top: 3%;
+}
+
+.Agency-container {
+  margin-top: 10%;
+}
+
+.Agency-container h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+
+.Agency-container p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(87, 86, 86);
+}
+
+.Emp-subContainer span {
+  font-size: 18px;
+  color: rgb(87, 86, 86);
+}
+
+/* .profile-container {
+  margin: 0 10%;
+} */
+
+.profile-container h5 {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.profile-container .tags {
+  border-radius: 5px;
+  background-color: rgb(199, 196, 196);
+  border-color: rgb(199, 196, 196);
+}
+
+.sample-container {
+  /* border: 1px solid; */
+  padding: 25px;
+  background-color: rgb(228, 227, 227);
+}
+
+.sample-container h4 {
+  font-weight: 500;
+  color: rgb(77, 75, 75);
+  margin-bottom: 3%;
+}
+
+.sample-container h5 {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+
+.sample-container h6 {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(97, 97, 97);
+}
+
+.sample-container p {
+  font-size: 16px;
+}
+
+.sample-container span {
+  font-size: 15px !important;
+  color: rgb(92, 91, 91);
+}
+
+.sample-container .tags {
+  border-radius: 5px;
+  background-color: rgb(185, 185, 185);
+  border-color: rgb(185, 185, 185);
+  color: rgb(32, 32, 32);
+}
